@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "super-agent": {
+      "command": "python",
+      "args": ["-m", "super_agent.mcp_server"],
+      "env": {
+        "SUPER_AGENT_HOST": "antigravity"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "super-agent",
+  "displayName": "Super-Agent",
+  "version": "0.2.0",
+  "description": "Single-host multi-window orchestration plugin for Claude Code with DAG scheduling, isolated Git worktrees, and independent verification.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

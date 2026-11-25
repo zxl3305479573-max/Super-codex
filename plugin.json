@@ -1,0 +1,11 @@
+{
+  "name": "super-agent",
+  "displayName": "Super-Agent",
+  "version": "0.2.0",
+  "description": "Single-host multi-window orchestration plugin that plans module DAGs, launches independent conversation windows with isolated worktrees, and runs independent verification.",
+  "suggestedPrompts": [
+    "$super-agent Inspect this workspace, propose a modular DAG plan for my approval, and orchestrate implementation across independent windows with final verification.",
+    "$super-agent Split this feature into parallel modules with exclusive write scopes, wait for my approval, then execute and verify in isolated worktrees.",
+    "$super-agent Refactor these modules using separate independent windows in this host and produce an independently verified final patch."
+  ]
+}

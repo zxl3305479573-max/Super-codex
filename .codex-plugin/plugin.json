@@ -1,0 +1,20 @@
+{
+  "name": "super-agent",
+  "version": "0.2.0",
+  "description": "Single-host multi-window orchestration plugin for Codex with DAG scheduling, isolated Git worktrees, and independent verification.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Super-Agent",
+    "shortDescription": "Orchestrate multi-module work across independent windows inside the same host.",
+    "longDescription": "Super-Agent turns your main conversation into a strict orchestrator that plans module DAGs, waits for explicit approval, launches real independent conversation windows inside the same host agent with isolated Git worktrees, integrates patches, and runs an independent read-only verifier before summarizing.",
+    "category": "Workflow",
+    "capabilities": [
+      "Multi-window task orchestration",
+      "DAG dependency and exclusive write-scope scheduling",
+      "Detached Git worktree isolation and patch integration",
+      "Independent read-only verification"
+    ],
+    "defaultPrompt": "$super-agent Inspect this workspace, propose a modular DAG plan for my approval, and orchestrate implementation across independent windows with final verification."
+  }
+}

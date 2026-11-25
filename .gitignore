@@ -1,0 +1,16 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local super-agent runtime data (if placed in workspace)
+.super-agent/runs/
+.agents/

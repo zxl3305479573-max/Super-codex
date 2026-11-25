@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "super-agent"
+version = "0.2.0"
+description = "Single-host multi-window orchestration plugin for coding agents"
+requires-python = ">=3.10"
+
+[project.scripts]
+super-agent = "super_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["super_agent*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "super-agent": {
+      "command": "python",
+      "args": ["-m", "super_agent.mcp_server"]
+    }
+  }
+}
